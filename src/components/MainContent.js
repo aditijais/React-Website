@@ -2,9 +2,9 @@ import React from 'react'
 
 const MainContent = () => {
   return (
-    <div>
-        <h1>Fun Facts About React</h1>
-        <ol className='main-content'>
+    <main>
+        <h1 className='main--title'>Fun Facts About React</h1>
+        <ul className='main--facts'>
             <li>
                Was first released in 2013
             </li>
@@ -17,8 +17,8 @@ const MainContent = () => {
             <li>
                 Is maintained by Facebook
             </li>
-        </ol>
-    </div>
+        </ul>
+    </main>
   )
 }
 
